@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#map {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #333;
+    font-family: ;
+}
+.search-container {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    z-index: 3;
+}
+.search-container .search {
+    position: relative;
+}
+.search-container .search i {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    color: #fff;
+    font-size: 14px;
+}
+.search-container input[type="text"] {
+    background: #454e53;
+    color: #FFF;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 20px;
+}
+input[type="text"]::placeholder {
+    color: #eee;
+}
+.search-container input[type="text"]:focus {
+    outline: 0;
+}
+.store-list-container {
+    position: absolute;
+    top: 170px;
+    bottom: 20px;
+    left: 40px;
+    z-index: 3;
+    width: 300px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.store-list {
+    height: 100%;
+    overflow-y: scroll;
+}
+.store {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.store:hover {
+}
+.store .store-bg {
+    display: flex;
+    width: 100%;
+    padding: 20px 8px;  
+    transition: .25s ease; 
+    border-radius: 5px; 
+    align-items: center;
+
+}
+.store .store-bg:hover {
+    background: #eee;
+}
+.store .info {
+    flex-grow: 1;
+}
+.store .info .city {
+    margin-bottom: 10px;
+}
+.store .phone {
+    font-size: 14px;
+    color: #666;
+}
+.store .order {
+    border-radius: 50%;
+    background: #454E5E;
+    color: #FFF;
+    /* position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 5px;
+
+}
+.gm-style .gm-style-iw-c h4 {
+    margin: 0 0 5px;
+}
+.gm-style .gm-style-iw-c p {
+    margin: 0 0 5px;
+}
+.gm-style .gm-style-iw-c a {
+    color: #000;
+    text-decoration: none;
+}
+.gm-style .gm-style-iw-c a:hover {
+    color: #333;
+}
+.gm-style .gm-style-iw-c a i {
+    color: #FFF;
+    background: #5899b0;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 11px;
+    margin-right: 5px;
+}
